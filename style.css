@@ -1,0 +1,72 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 2rem;
+            background-color: #f4f4f4;
+      }
+        h1 {
+            text-align: center;
+        }
+     #contact-form {
+            background: white;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            border-radius: 5px;
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+ #contact-form input[type="text"], #contact-form input[type="email"], #contact-form input[type="tel"] {
+            width: 100%;
+            padding: 0.5rem;
+            margin: 0.5rem 0 1rem 0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+     #contact-form button {
+            padding: 0.5rem 1rem;
+            background-color: #007bff;
+            border: none;
+            color: white;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+     #contact-form button:hover {
+            background-color: #0056b3;
+        }
+     #contacts-list {
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            padding: 1rem;
+        }
+    .contact-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #ddd;
+        }
+ .contact-item:last-child {
+            border-bottom: none;
+        }
+        .contact-info {
+            flex-grow: 1;
+        }
+        .contact-actions button {
+            margin-left: 0.5rem;
+            padding: 0.3rem 0.6rem;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+      .contact-actions button.edit {
+            background-color: #ffc107;
+            color: black;
+        }
+      .contact-actions button.delete {
+            background-color: #dc3545;
+            color: white;
+        }
